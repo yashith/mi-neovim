@@ -10,6 +10,8 @@ vim.g.mapleader = ' '
 map('n','<leader>y','"+y')
 map('n','<leader>p','"+p')
 
+map('v','<leader>y','"+y')
+map('v','<leader>p','"+p')
 -- auto add closing {, [, (, ', ", <
 map('i', '{<cr>', '{<cr>}<ESC>kA<CR>', {})
 closing_pairs = {'}', ')', ']', '"', "'", '>'}
