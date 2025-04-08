@@ -9,5 +9,6 @@ return {
 			highlist = { enable = true },
 			indent = { enable = true },
 		})
+  require('nvim-treesitter.install').compilers = { 'zig','gcc' }  --[[ this goddamn thing fixed issue in windows don't remove ]]
 	end,
 }
