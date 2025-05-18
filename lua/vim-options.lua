@@ -14,12 +14,12 @@ map('v','<leader>y','"+y')
 map('v','<leader>p','"+p')
 -- auto add closing {, [, (, ', ", <
 map('i', '{<cr>', '{<cr>}<ESC>kA<CR>', {})
-closing_pairs = {'}', ')', ']', '"', "'", '>'}
-opening_pairs = {'{', '(', '[', '"', "'", '<'}
-for key, chr in pairs(opening_pairs)
-do
-  map('i', chr, chr..closing_pairs[key]..'<esc>i', {})
-end
+-- closing_pairs = {'}', ')', ']', '"', "'", '>'}
+-- opening_pairs = {'{', '(', '[', '"', "'", '<'}
+-- for key, chr in pairs(opening_pairs)
+-- do
+  -- map('i', chr, chr..closing_pairs[key]..'<esc>i', {})
+-- end
 
 
 --wrap text
